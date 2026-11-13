@@ -1,0 +1,10 @@
+{
+  "description": "Connect with Josy de Assis, an expert in Parenting Education and Positive Discipline, through an inviting website that offers insights, testimonials, and contact information.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

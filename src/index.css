@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Nunito:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-display: 'Baloo 2', sans-serif;
+  --font-sans: 'Nunito', sans-serif;
+}
+
+:root {
+  --background: #fffdf8;
+  --foreground: #315a65;
+  --card: #ffffff;
+  --card-foreground: #315a65;
+  --primary: #254d57;
+  --primary-foreground: #fff;
+  --secondary: #e8f4f1;
+  --secondary-foreground: #315a65;
+  --muted: #e8f4f1;
+  --muted-foreground: #5e7c83;
+  --accent: #e08840;
+  --accent-foreground: #fff;
+  --border: #d7e5e2;
+  --ring: #e08840;
+  --radius: 1.5rem;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 72px;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.eyebrow {
+  font-size: .71rem;
+  font-weight: 800;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: #5B9B8A;
+}
+
+button, a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Smooth scrollbar hide */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #C8DAD5; border-radius: 99px; }
+::-webkit-scrollbar-thumb:hover { background: #A8C4C0; }
